@@ -1,0 +1,130 @@
+/* 초기화*/
+        *{
+            margin:0;
+            padding:0;
+            font:normal 12px '돋움';
+        }
+        ul,ol{list-style: none;}
+        a{text-decoration: none; color: #111;}
+        input, textarea {outline : none;}
+        /* 회원-로그인*/
+        #user{}
+        #user.login{
+            width: 360px;
+            height: auto;
+            margin : 300px auto;
+        }
+        #user.login >form{
+            position: relative;
+            padding: 20px 20px 20px 50px;
+            border : 1px solid #cfded8;
+        }
+        #user.login > form > table {}
+        #user.login > form > table img{ width : 20px;}
+        #user.login > form > table input {
+            width: 162px;
+            height:22px;
+            border :1px solid #e4eaec;
+            background: #f7f7f7;
+            margin-bottom: 5px;
+        }
+        
+        
+        #user.login > form > table tr{}
+        #user.login > form > table td{}
+        #user.login > form > input[type = submit]{
+            position: absolute;
+            right:53px;
+            top:22px;
+            width:60px;
+            height:55px;
+            border:1px solid #bebebe;
+            background: #fdfdfd;
+        }
+
+        #user.login > .info{
+            border: 1px solid #cfded8;
+    border-top: 0px;
+    background: #f5f6fa;
+    padding :20px ;
+        }
+        #user.login > .info > p {
+            padding :10px 0;
+        }
+        #user.login > .info > a {
+            float :10px 0;
+        }
+        
+
+/* 게시판 목록 */
+   #board.list{
+            position: relative;
+
+            width : 720px;
+            height: auto;
+            margin: 60px auto;
+        }
+        #board.list >h3{}
+        #board.list >article{}
+        #board.list > article >p{
+            position:absolute;
+            right: 0;
+            top: 0;
+   
+        }
+        #
+        #board.list > article > talbe{
+            width : 100%;
+            border-top: 2px solid #111;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        #board.list > article > table tr{}        
+        #board.list > article > table tr > th{
+            padding: 12px;
+           border-top: 1px solid #d1dee2;
+          border-bottom: 1px solid #d1dee2;
+          background: #e5ecef;
+        color: #383838;
+        }
+        #board.list > article > table tr> td{
+            border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+    padding: 12px 6px;
+}
+#board.list > article> table tr > td:nth-child(1){width: 50px; text-align: center;}
+#board.list > article> table tr > td:nth-child(2){width: auto; text-align: left;}
+#board.list > article> table tr > td:nth-child(3){width: 100px; text-align: center;}
+#board.list > article> table tr > td:nth-child(4){width: 100px; text-align: center;}
+#board.list > article> table tr > td:nth-child(5){width: 50px; text-align: center;}
+        
+        
+
+        #board.list > .paging{
+            padding: 20px;
+    text-align: center;
+        }
+        #board.list > .paging> a {
+            background: #f2f2f2;
+    border: 1px solid #d7d7d7;
+    padding: 8px;
+        }
+        #board.list > .paging > .num{}
+        #board.list > .paging > .current{
+            border: 1px solid #6d6d6d;
+    background: #888;
+    color: #fff;
+        }
+        #board.list > .paging > .prev {}
+        #board.list > .paging > .next{}
+        #board.list > .btnWrite{
+            position: absolute;
+            right: 0;
+            bottom: 14px;
+            padding: 8px;
+            border: 1px solid #bebebe;
+            background: #fdfdfd;
+            color:#111;
+            
+        }
+
