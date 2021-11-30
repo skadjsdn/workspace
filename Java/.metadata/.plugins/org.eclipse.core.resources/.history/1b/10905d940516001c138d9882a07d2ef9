@@ -1,0 +1,6 @@
+package mapreduec;
+
+//map 연사을 수행하는 컴포넌트
+public class WordCountMapper extends org.apache.hadoop.mapreduce.Mapper<KEYIN, VALUEIN, KEYOUT, VALUEOUT>{
+
+}
